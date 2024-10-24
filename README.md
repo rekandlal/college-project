@@ -1,2 +1,2 @@
 # college-project
-In this website , i create bank management system topic related.
+In this website , i will create bank management system .
