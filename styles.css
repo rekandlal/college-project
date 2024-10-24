@@ -39,6 +39,7 @@ body {
   width: 50px;
 }
 
+
 .nav-links {
   list-style: none;
 }
@@ -233,7 +234,6 @@ body {
 .account-details {
   padding: 40px 20px;
   background-color: #ffffff; /* White background */
-  max-width: 1200px;
   margin: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -267,12 +267,8 @@ body {
 
 /* Sidebar */
 .sidebar {
-  background-color: #ffffff; /* White sidebar background */
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 1px;
-
+  background-color: #f2f2f2; /* White sidebar background */
+  padding : 24px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin-top: 30px; /* Space above sidebar */
@@ -305,4 +301,16 @@ body {
   padding: 10px 0;
   background-color: #ffffff;
   border-top: 2px solid #dedede;
+}
+  
+
+/* Login/Sign-Up Page Styles */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('blur-hospital-clinic-interior.jpg'); /* Add your image path here */
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the image */
 }
