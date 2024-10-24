@@ -3,59 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Simple Website</title>
+  <title>SBI Bank</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
   <!-- Navigation Bar -->
-  <header>
+  <header class="main-header">
     <nav class="navbar">
-      <h1 class="logo">My Website</h1>
+      <div class="logo">
+        <img src="rb_54765.png" alt="bank logo image">
+        <p>SBI Bank</p>
+      </div>
       <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Introduction Section -->
-  <section class="intro" id="home">
-    <div class="intro-text">
-      <h3>Welcome to</h3>
-      <h1>My Awesome Website</h1>
-      <p>This is a simple example website layout using HTML and CSS.</p>
-      <button>Explore More</button>
+  <!-- Intro Section -->
+  <section id="home" class="intro">
+    <div class="intro-content">
+      <h1>Welcome to <span>SBI Bank</span></h1>
+      <p><b>Experience the Future of Banking with Us!</b></p>
+      <p>Say goodbye to traditional banking frustrations. Our innovative online platform offers you seamless access to your accounts, personalized insights, and 24/7 support. Elevate your banking experience with us.</p>
+      <a href="#services"><button class="btn-primary">Explore Services</button></a>
     </div>
   </section>
 
-  <!-- Activity Section -->
-  <section class="activities" id="services">
-    <div class="activity">
-      <img src="img/service1.jpg" alt="Service 1">
-      <h2>Service 1</h2>
-      <p>We offer this amazing service.</p>
-      <button>Learn More</button>
-    </div>
-    <div class="activity">
-      <img src="img/service2.jpg" alt="Service 2">
-      <h2>Service 2</h2>
-      <p>This is another fantastic service.</p>
-      <button>Learn More</button>
-    </div>
-    <div class="activity">
-      <img src="img/service3.jpg" alt="Service 3">
-      <h2>Service 3</h2>
-      <p>Our services are tailored for you.</p>
-      <button>Learn More</button>
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>SBI Banking Services</h2>
+    <div class="service-items">
+      <div class="service-item">
+        <h3>Account Management</h3>
+        <p>Efficiently manage your bank accounts with real-time updates and insights.</p>
+      </div>
+      <div class="service-item">
+        <h3>Loan Services</h3>
+        <p>Providing personalized loan options with competitive rates to meet your needs.</p>
+      </div>
+      <div class="service-item">
+        <h3>Online Banking</h3>
+        <p>Access your account anytime, anywhere with our secure online banking platform.</p>
+      </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer>
-    <p>&copy; 2024 My Website. All rights reserved.</p>
+  <footer class="footer">
+    <p>&copy; 2024 SBI Bank. All rights reserved.</p>
   </footer>
 
 </body>

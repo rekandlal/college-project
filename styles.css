@@ -1,0 +1,308 @@
+/* Global Styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Verdana', sans-serif;
+}
+
+body {
+  color: #444;
+  background-color: #fafafa;
+  line-height: 1.6;
+}
+
+/* Navigation Bar */
+.main-header {
+  background-color: #ffffff;
+  border-bottom: 2px solid #dedede;
+  padding: 10px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 96%;
+  margin: auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+.logo img{
+  width: 50px;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #2c3e50;
+  font-size: 1.1rem;
+}
+
+.nav-links a:hover {
+  color: #3498db;
+}
+
+/* Intro Section */
+.intro {
+  background-color: #e9f5ff;
+  text-align: center;
+  padding: 100px 237px;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  color: #3498db;
+}
+
+.intro h1 span {
+  color: #e74c3c;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  color: #2c3e50;
+}
+
+.btn-primary {
+  background-color: #e74c3c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #c0392b;
+}
+
+/* Services Section */
+.services {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+
+.services h2 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 40px;
+}
+
+.service-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service-item {
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 30%;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-item h3 {
+  font-size: 1.6rem;
+  color: #3498db;
+}
+
+.service-item p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Global Styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Verdana', sans-serif;
+}
+
+body {
+  color: #444;
+  background-color: #fafafa;
+  line-height: 1.6;
+}
+
+/* Login/Sign-Up Page Styles */
+*{text-decoration: none;}
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f8ff;
+}
+
+.login-box {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  width: 450px;
+  text-align: center;
+}
+
+.login-box h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #e74c3c;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  font-size: 1rem;
+  color: #2c3e50;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.input-group input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+.btn-login {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%; /* Full width for the button */
+}
+
+.btn-login:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Styles for the options below the login form */
+.options {
+  margin-top: 15px;
+  text-align: center; /* Center the text */
+}
+
+.options a {
+  color: #3498db; /* Same color as login button */
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.options a:hover {
+  text-decoration: underline; /* Underline on hover for clarity */
+}
+
+
+
+
+/* Account Details Section */
+.account-details {
+  padding: 40px 20px;
+  background-color: #ffffff; /* White background */
+  max-width: 1200px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.account-details h2 {
+  text-align: center;
+  color: #3498db; /* Blue color for heading */
+  margin-bottom: 30px;
+}
+
+/* User Info Cards */
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.user-card {
+  background-color: #f2f2f2; /* Light gray background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 45%;
+}
+
+.user-card h3 {
+  color: #e74c3c; /* Orange color for card headings */
+  margin-bottom: 15px;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #ffffff; /* White sidebar background */
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 1px;
+
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 30px; /* Space above sidebar */
+}
+
+.sidebar h3 {
+  color: #e74c3c; /* Dark blue for sidebar heading */
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #3498db; /* Blue for links */
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #ffffff;
+  border-top: 2px solid #dedede;
+}
